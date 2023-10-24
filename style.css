@@ -75,7 +75,7 @@ aside>img{
 .personal-info{
     background-image: url(./logos_proyecto/pexels-nemuel-sereti-6424589.jpg);
     background-size: cover;
-    height: 43vh;
+    height: 44vh;
 
     display: grid;
     place-content: center;
