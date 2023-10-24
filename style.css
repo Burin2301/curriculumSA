@@ -16,8 +16,8 @@ aside{
     /* quitar esto */
     /* display: none; */
 
-    max-width: 300px;
-    min-width: 200px;
+    min-width: 300px;
+    max-width: 350px;
     /* height: 100%; */
     background-color: var(--aside-bg) ;
     display: flex;
@@ -27,7 +27,9 @@ aside{
 }
 aside>img{
     align-self: center;
-    height: 43vh;
+    max-width: 290px;
+    max-height: 320px;
+    border-radius: 10px;
 }
 .aside-about,
 .aside-skills{
@@ -73,17 +75,20 @@ aside>img{
     width: 100%;
 }
 .personal-info{
-    background-image: url(./logos_proyecto/pexels-nemuel-sereti-6424589.jpg);
-    background-size: cover;
-    height: 44vh;
+    max-width: 44vh;
+    max-width: 100%;
+    padding: 30px;
 
-    display: grid;
-    place-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 10px 10px;
 }
 
 main{
     display: grid;
     place-content: center;
+    padding: 40px;
 }
 
 .references{
@@ -91,17 +96,15 @@ main{
 }
 .personal-info-text>h1{
     font-size: 2rem;
-    color: white;
+    margin-right: 20px;
 }
 .personal-info-text>h3,
 .personal-info-text>h3>span{
     font-size: 1.5rem;
-    color: white;
 }
 .reach-info{
     display: flex;
     align-items: center;
-    color: white;
 }
 .hero-info-icon{
     width: 2rem;
@@ -120,10 +123,11 @@ main{
 .experiences>h2{
     margin-top: 20px;
     font-size: 1.6rem;
+    max-width: 700px;
 }
 .experiences>.separation-line,
 .references>.separation-line{
-    width: 80%;
+    width: 100%;
     height: .3rem;
     background-color: var(--aside-bg);
     margin: .5rem 0;
@@ -146,5 +150,6 @@ main{
 }
 .ref-name{
     width: 200px;
+    font-weight: 800;
     
 }
