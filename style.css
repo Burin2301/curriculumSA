@@ -7,6 +7,7 @@
 }
 body{
     --aside-bg:#44586A;
+    width: 100%;
 }
 .main-container{
     display: flex;
@@ -19,12 +20,14 @@ aside{
     min-width: 200px;
     /* height: 100%; */
     background-color: var(--aside-bg) ;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
 
-    margin-right: 100px;
 }
 aside>img{
-    width: 100%;
-    height: auto;
+    align-self: center;
+    height: 43vh;
 }
 .aside-about,
 .aside-skills{
@@ -65,31 +68,48 @@ aside>img{
 }
 
 
+.hero{
+    padding: 0;
+    width: 100%;
+}
+.personal-info{
+    background-image: url(./logos_proyecto/pexels-nemuel-sereti-6424589.jpg);
+    background-size: cover;
+    height: 43vh;
+
+    display: grid;
+    place-content: center;
+}
 
 main{
     display: grid;
     place-content: center;
 }
 
-.personal-info,
 .references{
     margin: 2rem 0;
 }
 .personal-info-text>h1{
     font-size: 2rem;
+    color: white;
 }
 .personal-info-text>h3,
 .personal-info-text>h3>span{
     font-size: 1.5rem;
+    color: white;
 }
 .reach-info{
     display: flex;
     align-items: center;
+    color: white;
 }
 .hero-info-icon{
     width: 2rem;
     height: 2rem;
     margin: .2rem;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid white;
 }
 .hero-info-text{
     margin-left: .5rem;
@@ -98,6 +118,7 @@ main{
 
 
 .experiences>h2{
+    margin-top: 20px;
     font-size: 1.6rem;
 }
 .experiences>.separation-line,
