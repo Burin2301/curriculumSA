@@ -166,11 +166,7 @@ main{
         background-color: black;
         justify-content: center;
     }
-    .aside-about,
-    .aside-studies,
-    .aside-skills{
-        /* display: none; */
-    }
+    
     .aside-about,
     .aside-studies,
     .aside-skills{
