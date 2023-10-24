@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-size: 18px;
+    font-family: 'Overpass', sans-serif;
+}
+body{
+    --aside-bg:#44586A;
+}
+.main-container{
+    display: flex;
+}
+aside{
+    /* quitar esto */
+    /* display: none; */
+
+    max-width: 300px;
+    min-width: 200px;
+    /* height: 100%; */
+    background-color: var(--aside-bg) ;
+
+    margin-right: 100px;
+}
+aside>img{
+    width: 100%;
+    height: auto;
+}
+.aside-about,
+.aside-skills{
+    padding: .3rem;
+}
+.aside-about-text>h3{
+    padding-top: 30px;
+    color:white;
+    font-size: 1.4rem;
+}
+.aside-about-text>p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    padding-top: 10px;
+}
+.aside-studies{
+    padding: 30px .3rem 0 ;    
+}
+.aside-studies>h3,
+.aside-skills>h3{
+    padding-top: 30px;
+    color:white;
+    font-size: 1.4rem;
+}
+.aside-studies-detail>.study-name,
+.aside-skills>ul{
+    padding-top: 10px;
+    color:white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.aside-studies-detail,
+.aside-skills>ul>li{
+    color:white;
+    font-size: .8rem;
+    padding-bottom: 8px;
+}
+
+
+
+main{
+    margin: 0 2rem;
+}
+
+.personal-info,
+.references{
+    margin: 2rem 0;
+}
+.personal-info-text>h1{
+    font-size: 2rem;
+}
+.personal-info-text>h3,
+.personal-info-text>h3>span{
+    font-size: 1.5rem;
+}
+.reach-info{
+    display: flex;
+    align-items: center;
+}
+.hero-info-icon{
+    width: 2rem;
+    height: 2rem;
+    margin: .2rem;
+}
+.hero-info-text{
+    margin-left: .5rem;
+    font-weight: 600;
+}
+
+
+.experiences>h2{
+    font-size: 1.6rem;
+}
+.experiences>.separation-line,
+.references>.separation-line{
+    width: 80%;
+    height: .3rem;
+    background-color: var(--aside-bg);
+    margin: .5rem 0;
+}
+.experience-card,
+.reference-card{
+    margin: 1.2rem;
+}
+
+.experience-card>.exp-title{
+    font-size: 1.2rem;
+    margin-bottom: .6rem;
+}
+.experience-card>h5>span{
+    margin-bottom: .6rem;
+}
+.reference-card{
+    display: flex;
+    align-items: center;
+}
+.ref-name{
+    width: 200px;
+    
+}

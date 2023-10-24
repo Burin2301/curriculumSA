@@ -1,0 +1,17 @@
+gris claro #596c7e
+rosa claro #f58787
+azul oscuro #30475e
+azul oscuro claro #03506f
+white #dddddd
+rojo #f05454
+
+
+
+login crear
+
+login   	OK
+home		OK
+recetas		OK
+blog		OK
+calculaGastos	OK
+goalTracker	OK
