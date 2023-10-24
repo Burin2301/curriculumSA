@@ -67,7 +67,8 @@ aside>img{
 
 
 main{
-    margin: 0 2rem;
+    display: grid;
+    place-content: center;
 }
 
 .personal-info,
