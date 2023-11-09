@@ -7,6 +7,11 @@
 }
 body{
     --aside-bg:#44586A;
+    --flame: hsla(14, 77%, 54%, 1);
+    --delft-blue: hsla(228, 38%, 26%, 1);
+    --orange-web: hsla(40, 90%, 51%, 1);
+    --olivine: hsla(88, 36%, 65%, 1);
+    --air-superiority-blue: hsla(203, 39%, 57%, 1);
     width: 100%;
 }
 .main-container{
@@ -19,7 +24,7 @@ aside{
     min-width: 300px;
     max-width: 350px;
     /* height: 100%; */
-    background-color: var(--aside-bg) ;
+    background-color: var(--delft-blue) ;
     display: flex;
     flex-direction: column;
     padding: 6px;
